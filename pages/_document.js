@@ -1,10 +1,10 @@
-import Document, { Head, Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
+import Document, { Head, Main, NextScript } from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
 
-export const title = "Next.js PWA Boilerplate";
+export const title = 'Allicin Design';
 const description =
-  "Next.js PWA Boilerplate starts your progressive web app off with a perfect Google Lighthouse score.";
-const url = `https://next-pwa-boilerplate.now.sh`;
+  'Allicin Design starts your progressive web app off with a perfect Google Lighthouse score.';
+const url = `https://design.allicin.io`;
 const thumbnail = `${url}/static/graphics/thumbnail.png`;
 
 export default class MyDocument extends Document {
@@ -25,19 +25,14 @@ export default class MyDocument extends Document {
         <Head>
           {/* Performance: Inject the page’s critical CSS in the <head> tag */}
           {this.props.styleTags}
-
           {/* Progressive Web App: Match the width of app’s content with width of viewport for mobile devices */}
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-
           {/* Progressive Web App: Have address bar match brand colors */}
           <meta name="theme-color" content="#fff" />
-
           {/* Progressive Web App: Provide manifest file for metadata */}
           <link rel="manifest" href="./static/manifest.json" />
-
           {/* SEO: App description for search-engine optimization */}
           <meta name="Description" content={description} />
-
           {/* Bonus: Have beautiful preview tiles when users share your website on social media */}
           <meta property="og:title" content={title} />
           <meta property="og:description" content={description} />
@@ -48,7 +43,6 @@ export default class MyDocument extends Document {
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content={thumbnail} />
-
           {/* Bonus: Have app icon and splash screen for PWAs saved to homescreen on iOS devices */}
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -112,6 +106,17 @@ export default class MyDocument extends Document {
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+            rel="stylesheet"
+          />
+          <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF"
+            crossOrigin="anonymous"
+          />
+          <link rel="stylesheet" href="https://use.typekit.net/yat7jkm.css" />
         </Head>
         <body>
           <Main />
