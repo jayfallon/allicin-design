@@ -1,7 +1,7 @@
 {
-  "name": "next-pwa-boilerplate",
+  "name": "allicin-design",
   "version": "1.2.0",
-  "description": "Start your progressive web app off with a perfect Google Lighthouse score.",
+  "description": "Allicin Design companion for Allicin.io",
   "main": "server/index.js",
   "scripts": {
     "build": "next build",
@@ -11,19 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pingboard/next-pwa-boilerplate.git"
+    "url": "git+https://github.com/jayfallon/allicin-design.git"
   },
-  "author": "James Y Rauhut <james@seejamescode.com> (https://seejamescode.com/)",
+  "author": "James C Fallon <jayfallon@gmail.com> (https://jayfallon.net/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pingboard/next-pwa-boilerplate/issues"
+    "url": "https://github.com/jayfallon/allicin-design/issues"
   },
-  "homepage": "https://next-pwa-boilerplate.now.sh",
+  "homepage": "https://allicin-design.now.sh",
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
     "jshint": "^2.10.2",
     "next": "^8.0.1",
     "next-offline": "^3.3.1",
+    "nprogress": "^0.2.0",
     "prop-types": "^15.6.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
