@@ -2,7 +2,10 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 import media from '../MediaQueries';
 
-const GlobalStyle = createGlobalStyle`
+import AdsLink from './links';
+
+const GlobalStyle = createGlobalStyle`;
+
 
   /* http://meyerweb.com/eric/tools/css/reset/ 
     v2.0 | 20110126
@@ -71,11 +74,26 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.8;
   }
   main {
-    padding-top: 6rem;
+    background-color: ${props => props.theme.mainBackground} ;
+    padding: 0 0;
   }
 
   #__next {
     height: 100%;
+  }
+
+  a {
+    color: ${props => props.theme.adsLinkDef};
+    &:hover {
+      color: ${props => props.theme.adsLinkHov};
+    }
+    &:focus {
+      background-color: ${props => props.theme.adsLinkFoc};
+      outline: 3px solid ${props => props.theme.adsLinkFoc};
+    }
+    &:visited {
+      color: ${props => props.theme.adsLinkVis};
+    }
   }
 
   a.main__content--link {
@@ -107,9 +125,26 @@ a.main__content--link:focus {
 }
 `;
 
-const PageContainer = styled.div`
+const GridWrapper12 = styled.article`
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(182, 1fr);
+`;
+const GridWrapper16 = styled.article`
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(16, 1fr);
+`;
+const GridWrapper18 = styled.article`
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(18, 1fr);
+`;
+
+const PageContainer = styled.section`
   margin: 0 auto;
   padding: 0 2rem;
+
   ${media.brotherbear`
   
     padding-left: calc(50vw - 512px - 20px);
@@ -119,4 +154,4 @@ const PageContainer = styled.div`
 
 export default GlobalStyle;
 
-export { PageContainer };
+export { AdsLink, PageContainer, GridWrapper12, GridWrapper16, GridWrapper18 };

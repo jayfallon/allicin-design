@@ -116,7 +116,6 @@ export default class MyDocument extends Document {
             integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF"
             crossOrigin="anonymous"
           />
-          <link rel="stylesheet" href="https://use.typekit.net/yat7jkm.css" />
         </Head>
         <body>
           <Main />
