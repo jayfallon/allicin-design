@@ -1,7 +1,19 @@
 import styled from 'styled-components';
+import media from '../MediaQueries';
 
 const HeaderStyles = styled.header`
   background-color: ${props => props.theme.headerBg};
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+  border-bottom: 1rem solid ${props => props.theme.headerBorder};
+  position: fixed;
+
+  ${media.brotherbear`
+  
+    padding-left: calc(50vw - 512px - 20px);
+    padding-right: calc(50vw - 512px - 20px);
+   `}
 
   nav.header__nav {
     height: 5.3rem;

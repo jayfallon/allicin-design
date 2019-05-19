@@ -9,12 +9,6 @@ import Theme from './Theme';
 import GlobalStyle from './Global';
 import media from './MediaQueries';
 
-const Main = styled.main`
-  margin: 0 auto;
-  max-width: var(--max-width);
-  padding: var(--padding);
-`;
-
 const StyledPage = styled.div`
   height: 100%;
   color: ${props => props.theme.bodyText};

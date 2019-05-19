@@ -6,6 +6,9 @@ import NProgress from 'nprogress';
 import HeaderStyles from './styles';
 import { PageContainer } from '../Global';
 
+import Beta from './beta';
+import AppNav from '../AppNav';
+
 Router.onRouteChangeStart = () => {
   NProgress.start();
 };
@@ -19,8 +22,8 @@ Router.onRouteChangeError = () => {
 class Header extends Component {
   render() {
     return (
-      <HeaderStyles role="banner">
-        <PageContainer>
+      <>
+        <HeaderStyles role="banner">
           <nav className="header__nav" role="navigation">
             <h1 className="logo__primary">
               <Link href="/">
@@ -32,8 +35,10 @@ class Header extends Component {
             </h1>
             <button className="allicin__button--nav">Menu</button>
           </nav>
-        </PageContainer>
-      </HeaderStyles>
+        </HeaderStyles>
+        <Beta />
+        <AppNav />
+      </>
     );
   }
 }
