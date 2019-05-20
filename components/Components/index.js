@@ -26,7 +26,7 @@ Components are reusable parts of the user interface that have been made to suppo
 
 Individual components can be used in multiple different patterns and contexts. For example, the text input component can be used to ask for an email address, a National Insurance number or someone’s name.
 
-If you are using the GOV.UK Prototype Kit or have GOV.UK Frontend included in your build, the coded examples provided will render exactly as they do inside the Design System.
+If you are using the Allicin.io Prototype Kit or have Allicin.io Frontend included in your build, the coded examples provided will render exactly as they do inside the Design System.
 `;
 
 const Styles = props => (

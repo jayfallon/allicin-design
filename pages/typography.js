@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Typography from '../components/Typography';
 
-const Index = () => (
+const TypographyView = () => (
   <>
-    <Home />
+    <Typography />
   </>
 );
 
-export default Index;
+export default TypographyView;

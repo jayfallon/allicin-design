@@ -1,8 +1,8 @@
-import AppNav from '../components/AppNav';
+import PageTemplate from '../components/PageTemplate';
 
 const PageTemplateView = () => (
   <>
-    <AppNav />
+    <PageTemplate />
   </>
 );
 
