@@ -1,6 +1,8 @@
+import Patterns from '../components/Patterns'
+;
 const PatternsPage = () => (
   <>
-    <h2>hello jay</h2>
+    <Patterns />
   </>
 );
 

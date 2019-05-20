@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Spacing from '../components/Spacing';
 
-const Index = () => (
+const SpacingView = () => (
   <>
-    <Home />
+    <Spacing />
   </>
 );
 
-export default Index;
+export default SpacingView;

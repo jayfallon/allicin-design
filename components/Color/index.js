@@ -25,9 +25,11 @@ const ColorList = props => (
       return (
         <ul key={i} className="color__list--grid">
           <li style={{ background: item.hex }} />
-          <li>{item.name}</li>
-          <li>{item.hex}</li>
-          <li>{item.purpose}</li>
+          <li>
+            <span>{item.name}</span>
+            <span>{item.hex}</span>
+            <span>{item.purpose}</span>
+          </li>
         </ul>
       );
     })}
@@ -43,13 +45,13 @@ Always use the Allicin color palette.
 You must make sure that the contrast ratio of text and interactive elements in your service meets level AA of the Web Content Accessibility Guidelines (WCAG 2.0).
 
 ### Main colors
-If you are using Allicin Frontend or the Allicin Prototype Kit, use the Sass variables provided rather than copying the hexadecimal (hex) color values. For example, use $Allicin-brand-color rather than #005ea5. This means that your service will always use the most recent color palette whenever you update.
+If you are using Allicin Frontend or the Allicin Prototype Kit, use the Sass variables provided rather than copying the hexadecimal (hex) color values. For example, use <pre>\${props => props.theme.errorText}</pre> rather than #005ea5. This means that your service will always use the most recent color palette whenever you update.
 
-Only use the variables in the context they’re designed for. In all other cases, you should reference the color palette directly. For example, if you wanted to use red to represent some data in a graph you should use Allicin-color("red") rather than $Allicin-error-color.
+Only use the variables in the context they’re designed for. In all other cases, you should reference the color palette directly. For example, if you wanted to use red to represent some data in a graph you should use Allicin-color("red") rather than <pre>\${props => props.theme.errorText}</pre>
 `;
 
 const content02 = `
-### color palette
+### Color palette
 Use these colors for graphs and supporting material.
 
 To reference colors from the palette directly you should use the Allicin-color function. For example, color: Allicin-color("blue").

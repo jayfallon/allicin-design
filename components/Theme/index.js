@@ -157,6 +157,7 @@ const Theme = {
   betaBg: Colors.endeavour,
   whiteBg: Colors.white,
   errorText: Colors.shiraz,
+  errorBg: Colors.yellowOrange,
 };
 
 export default Theme;

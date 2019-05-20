@@ -33,7 +33,6 @@ class Header extends Component {
               </Link>
               <span className="logo__title--text">Design System</span>
             </h1>
-            <button className="allicin__button--nav">Menu</button>
           </nav>
         </HeaderStyles>
         <Beta />
