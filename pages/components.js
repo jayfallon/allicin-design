@@ -1,4 +1,4 @@
-import Components from '../components/Components';
+import Components from '../components/SiteComponents';
 
 const ComponentsPage = () => (
   <>

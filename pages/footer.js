@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Footer from '../components/SiteComponents/footer';
 
-const Index = () => (
+const FooterView = () => (
   <>
-    <Home />
+    <Footer />
   </>
 );
 
-export default Index;
+export default FooterView;

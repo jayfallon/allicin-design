@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Radios from '../components/SiteComponents/radios';
 
-const Index = () => (
+const RadiosView = () => (
   <>
-    <Home />
+    <Radios />
   </>
 );
 
-export default Index;
+export default RadiosView;

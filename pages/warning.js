@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Warning from '../components/SiteComponents/warning';
 
-const Index = () => (
+const WarningView = () => (
   <>
-    <Home />
+    <Warning />
   </>
 );
 
-export default Index;
+export default WarningView;

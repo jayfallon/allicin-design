@@ -30,6 +30,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "react-gist": "^1.2.1",
     "react-markdown": "^4.0.8",
     "react-modal": "^3.8.1",
     "styled-components": "^4.1.3"

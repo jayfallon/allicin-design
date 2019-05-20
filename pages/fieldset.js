@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Fieldset from '../components/SiteComponents/fieldset';
 
-const Index = () => (
+const FieldsetView = () => (
   <>
-    <Home />
+    <Fieldset />
   </>
 );
 
-export default Index;
+export default FieldsetView;

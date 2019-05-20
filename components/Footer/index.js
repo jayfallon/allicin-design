@@ -15,7 +15,7 @@ const Footer = props => (
               <a href="https://allicin.io">Allicin Digital Service</a>
             </p>
             <p className="footer__ogl">
-              All content is available under the
+              All content is available under the{' '}
               <a href="https://en.wikipedia.org/wiki/MIT_License">
                 MIT License
               </a>

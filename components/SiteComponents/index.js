@@ -29,17 +29,17 @@ Individual components can be used in multiple different patterns and contexts. F
 If you are using the Allicin.io Prototype Kit or have Allicin.io Frontend included in your build, the coded examples provided will render exactly as they do inside the Design System.
 `;
 
-const Styles = props => (
+const Components = props => (
   <LandingStyles>
     <article className="landing__content--grid">
-      <LinkList list={componentsLinks} cname="landing__menu" />
       <div className="landing__content">
         <ReactMarkdown source={content} escapeHtml={false} />
       </div>
+      <LinkList list={componentsLinks} cname="landing__menu" />
     </article>
   </LandingStyles>
 );
 
-export default Styles;
+export default Components;
 
 export { componentsLinks };

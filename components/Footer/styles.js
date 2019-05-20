@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import media from '../MediaQueries';
 
 const FooterStyles = styled.footer`
+  background-color: ${props => props.theme.footerBg};
   margin: 0 auto;
   padding: 0 2rem;
 
