@@ -1,4 +1,4 @@
-import Fieldset from '../components/SiteComponents/Fieldset';
+import Fieldset from '../components/SiteComponents/fieldset';
 
 const FieldsetView = () => (
   <>
