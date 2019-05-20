@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Header from '../components/SiteComponents/header';
 
-const Index = () => (
+const HeaderView = () => (
   <>
-    <Home />
+    <Header />
   </>
 );
 
-export default Index;
+export default HeaderView;

@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import TextInput from '../components/SiteComponents/textInput';
 
-const Index = () => (
+const TextInputView = () => (
   <>
-    <Home />
+    <TextInput />
   </>
 );
 
-export default Index;
+export default TextInputView;

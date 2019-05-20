@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Textarea from '../components/SiteComponents/textarea';
 
-const Index = () => (
+const TextareaView = () => (
   <>
-    <Home />
+    <Textarea />
   </>
 );
 
-export default Index;
+export default TextareaView;

@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import ErrorMessage from '../components/SiteComponents/errorMessage';
 
-const Index = () => (
+const ErrorMessageView = () => (
   <>
-    <Home />
+    <ErrorMessage />
   </>
 );
 
-export default Index;
+export default ErrorMessageView;

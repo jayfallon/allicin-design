@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Button from '../components/SiteComponents/button';
 
-const Index = () => (
+const ButtonView = () => (
   <>
-    <Home />
+    <Button />
   </>
 );
 
-export default Index;
+export default ButtonView;

@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Tabs from '../components/SiteComponents/tabs';
 
-const Index = () => (
+const TabsView = () => (
   <>
-    <Home />
+    <Tabs />
   </>
 );
 
-export default Index;
+export default TabsView;

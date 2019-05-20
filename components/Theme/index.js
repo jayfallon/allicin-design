@@ -152,6 +152,9 @@ const Theme = {
   heroEndBg: Colors.endeavour,
   heroTextWh: Colors.white,
 
+  // Footer
+  footerBg: Colors.iron,
+
   // Helpers
   boxShadow: '0 1px 3px hsla(0, 15%, 12%, 0.4)',
   betaBg: Colors.endeavour,

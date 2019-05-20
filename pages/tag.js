@@ -1,9 +1,9 @@
-import Home from '../components/Home';
+import Tag from '../components/SiteComponents/tags';
 
-const Index = () => (
+const TagView = () => (
   <>
-    <Home />
+    <Tag />
   </>
 );
 
-export default Index;
+export default TagView;
